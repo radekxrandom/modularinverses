@@ -4,6 +4,7 @@ def gcd(a, b):
     return gcd(b, a%b)
    
    
+
 def invMod(a, b):
     if gcd(a,b) != 1:
         print("No modular inverse")
